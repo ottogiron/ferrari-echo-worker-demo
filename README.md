@@ -18,6 +18,6 @@ docker build -t ferrari-echo .
 Run
 
 ```
-docker run --rm -e ECHO_SERVER_URL=192.168.1.8 -e QUEUE_HOST=192.168.1.8  -e QUEUE_NAME=hello  -it ferrari-echo
+docker run --rm -e ECHO_SERVER_HOST=192.168.1.8 -e RABBIT_HOST=192.168.1.8  -e QUEUE_NAME=hello  -it ferrari-echo
 ```
 

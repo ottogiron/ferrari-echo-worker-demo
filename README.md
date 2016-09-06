@@ -1,4 +1,4 @@
-#  Echo Worker Demo with Ferrariwoker Rabbit Processor and Docker
+#  Echo Node Worker Demo with Ferrariwoker Rabbit Processor and Docker
 
 Uses [Ferarriworker](https://github.com/ottogiron/ferrariworker) and a node  [Echo server](https://www.npmjs.com/package/echo-server) to create a simple worker. 
 

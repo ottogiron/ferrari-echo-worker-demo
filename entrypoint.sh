@@ -8,4 +8,5 @@ ferrariworker process rabbit \
     --consumer-auto-ack=true \
     --command="node echo.js" \
     --command-run-path="/app" \
+    --exchange="text-exchange" \
     --max-concurrency=8     
